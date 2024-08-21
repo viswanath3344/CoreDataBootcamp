@@ -17,6 +17,14 @@
 		3F7AB1F52C75B297009AD2BF /* CoreDataBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB1F42C75B297009AD2BF /* CoreDataBootcampTests.swift */; };
 		3F7AB1FF2C75B297009AD2BF /* CoreDataBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB1FE2C75B297009AD2BF /* CoreDataBootcampUITests.swift */; };
 		3F7AB2012C75B297009AD2BF /* CoreDataBootcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB2002C75B297009AD2BF /* CoreDataBootcampUITestsLaunchTests.swift */; };
+		3F7AB20E2C75B545009AD2BF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB20D2C75B545009AD2BF /* CoreDataStack.swift */; };
+		3F7AB2102C75B792009AD2BF /* ComplexEmployeeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB20F2C75B792009AD2BF /* ComplexEmployeeManager.swift */; };
+		3F7AB2122C75BA68009AD2BF /* MediumEmployeeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB2112C75BA68009AD2BF /* MediumEmployeeManager.swift */; };
+		3F7AB2142C75BAD2009AD2BF /* SimpleEmployeeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB2132C75BAD2009AD2BF /* SimpleEmployeeDataManager.swift */; };
+		3F7AB2162C75BC7C009AD2BF /* MediumEmployeeManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB2152C75BC7C009AD2BF /* MediumEmployeeManagerTests.swift */; };
+		3F7AB2182C75BD4B009AD2BF /* CoreDataTestStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB2172C75BD4B009AD2BF /* CoreDataTestStack.swift */; };
+		3F7AB21B2C75C104009AD2BF /* SimpleEmployeeManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB21A2C75C104009AD2BF /* SimpleEmployeeManagerTest.swift */; };
+		3F7AB21D2C75C16D009AD2BF /* ComplexEmployeeManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AB21C2C75C16D009AD2BF /* ComplexEmployeeManagerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		3F7AB1FA2C75B297009AD2BF /* CoreDataBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7AB1FE2C75B297009AD2BF /* CoreDataBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcampUITests.swift; sourceTree = "<group>"; };
 		3F7AB2002C75B297009AD2BF /* CoreDataBootcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F7AB20D2C75B545009AD2BF /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		3F7AB20F2C75B792009AD2BF /* ComplexEmployeeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexEmployeeManager.swift; sourceTree = "<group>"; };
+		3F7AB2112C75BA68009AD2BF /* MediumEmployeeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumEmployeeManager.swift; sourceTree = "<group>"; };
+		3F7AB2132C75BAD2009AD2BF /* SimpleEmployeeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEmployeeDataManager.swift; sourceTree = "<group>"; };
+		3F7AB2152C75BC7C009AD2BF /* MediumEmployeeManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumEmployeeManagerTests.swift; sourceTree = "<group>"; };
+		3F7AB2172C75BD4B009AD2BF /* CoreDataTestStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTestStack.swift; sourceTree = "<group>"; };
+		3F7AB21A2C75C104009AD2BF /* SimpleEmployeeManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEmployeeManagerTest.swift; sourceTree = "<group>"; };
+		3F7AB21C2C75C16D009AD2BF /* ComplexEmployeeManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexEmployeeManagerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				3F7AB1DA2C75B295009AD2BF /* AppDelegate.swift */,
+				3F7AB20D2C75B545009AD2BF /* CoreDataStack.swift */,
+				3F7AB20F2C75B792009AD2BF /* ComplexEmployeeManager.swift */,
+				3F7AB2112C75BA68009AD2BF /* MediumEmployeeManager.swift */,
+				3F7AB2132C75BAD2009AD2BF /* SimpleEmployeeDataManager.swift */,
 				3F7AB1DC2C75B295009AD2BF /* SceneDelegate.swift */,
 				3F7AB1DE2C75B295009AD2BF /* ViewController.swift */,
 				3F7AB1E02C75B295009AD2BF /* Main.storyboard */,
@@ -117,6 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				3F7AB1F42C75B297009AD2BF /* CoreDataBootcampTests.swift */,
+				3F7AB2152C75BC7C009AD2BF /* MediumEmployeeManagerTests.swift */,
+				3F7AB21C2C75C16D009AD2BF /* ComplexEmployeeManagerTest.swift */,
+				3F7AB21A2C75C104009AD2BF /* SimpleEmployeeManagerTest.swift */,
+				3F7AB2192C75C005009AD2BF /* Helpers */,
 			);
 			path = CoreDataBootcampTests;
 			sourceTree = "<group>";
@@ -128,6 +152,14 @@
 				3F7AB2002C75B297009AD2BF /* CoreDataBootcampUITestsLaunchTests.swift */,
 			);
 			path = CoreDataBootcampUITests;
+			sourceTree = "<group>";
+		};
+		3F7AB2192C75C005009AD2BF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3F7AB2172C75BD4B009AD2BF /* CoreDataTestStack.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7AB20E2C75B545009AD2BF /* CoreDataStack.swift in Sources */,
+				3F7AB2142C75BAD2009AD2BF /* SimpleEmployeeDataManager.swift in Sources */,
 				3F7AB1DF2C75B295009AD2BF /* ViewController.swift in Sources */,
 				3F7AB1E52C75B295009AD2BF /* CoreDataBootcamp.xcdatamodeld in Sources */,
+				3F7AB2122C75BA68009AD2BF /* MediumEmployeeManager.swift in Sources */,
+				3F7AB2102C75B792009AD2BF /* ComplexEmployeeManager.swift in Sources */,
 				3F7AB1DB2C75B295009AD2BF /* AppDelegate.swift in Sources */,
 				3F7AB1DD2C75B295009AD2BF /* SceneDelegate.swift in Sources */,
 			);
@@ -272,7 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7AB2162C75BC7C009AD2BF /* MediumEmployeeManagerTests.swift in Sources */,
+				3F7AB21D2C75C16D009AD2BF /* ComplexEmployeeManagerTest.swift in Sources */,
+				3F7AB2182C75BD4B009AD2BF /* CoreDataTestStack.swift in Sources */,
 				3F7AB1F52C75B297009AD2BF /* CoreDataBootcampTests.swift in Sources */,
+				3F7AB21B2C75C104009AD2BF /* SimpleEmployeeManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
